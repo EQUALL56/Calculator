@@ -35,6 +35,7 @@ template <class T>
 void clear(Stack <T>& st) {
 
   st.stack_p = 0;
+  delete[] st->stack;  
 
 
 }
